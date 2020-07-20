@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP
 {
-    class Worker : Human, IInterface
+    class Worker : AbHuman, IInterface
     {
         int ammountOfLegs;
         public virtual int AmmountOfLegs { get => this.ammountOfLegs; set { ammountOfLegs=2; }}
