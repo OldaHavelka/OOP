@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OOP
+{
+    abstract class AbHuman
+    {
+        int ammountOfLegs;
+
+        public AbHuman(int ammountOfLegs)
+        {
+            this.ammountOfLegs = ammountOfLegs;
+        }
+
+        public AbHuman() {
+            this.ammountOfLegs = 2;
+        }
+
+        public abstract void TellMeHowManyLegsDoYouHave();
+    }
+}
